@@ -4,10 +4,16 @@
 a twitter oriented nameplate generator (RubyKaigi-ish)
 
   $ git clone http://github.com/jmettraux/nameplate.git
+  $ cd nameplate
   $ bundle install
   $ ruby nameplate.rb
 
 go to
 
-  http://localhost:4567/nameplate/Sixeight
+  http://127.0.0.1:4567/nameplate/Sixeight
+
+
+== license
+
+is the MIT one
 
