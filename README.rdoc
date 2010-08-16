@@ -16,6 +16,8 @@ basically
 
   http://127.0.0.1:4567/nameplate/{twitter-id}
 
+Works better with Ruby 1.9.x (UTF-8).
+
 
 == license
 

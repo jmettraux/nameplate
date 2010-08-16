@@ -24,6 +24,7 @@ get '/nameplate/:twitterid' do
   @name = info['name']
   @image = info['profile_image_url']
 
+  content_type 'text/html', :charset => 'utf-8'
   haml :nameplate
 end
 
