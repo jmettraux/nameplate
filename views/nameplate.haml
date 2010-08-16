@@ -1,0 +1,32 @@
+!!!
+%html
+  %head
+
+    %title nameplate/#{@id}
+
+    :css
+      .nameplate {
+        font: 18px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+        width: 200px;
+      }
+      .name {
+        font-size: 280%;
+        height: 140px;
+      }
+      .twitter {
+      }
+      .twitterid {
+        float: left;
+      }
+      .twitterimage {
+        float: right;
+      }
+
+  %body
+    .nameplate
+      .name #{@name}
+      .twitter
+        .twitterid @#{@id}
+        .twitterimage
+          %img{ :src => @image }
+

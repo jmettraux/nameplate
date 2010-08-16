@@ -1,0 +1,13 @@
+
+= nameplate.rb
+
+a twitter oriented nameplate generator (RubyKaigi-ish)
+
+  $ git clone http://github.com/jmettraux/nameplate.git
+  $ bundle install
+  $ ruby nameplate.rb
+
+go to
+
+  http://localhost:4567/nameplate/Sixeight
+
